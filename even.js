@@ -1,6 +1,7 @@
-function isEven(num) {
-  return num % 2 === 0;
-}
+var seasons = ["spring", "summer", "fall"];
+var length = seasons.length;
 
-console.log(isEven(10));
-console.log(isEven(11));
+seasons.push("winter");
+
+console.log(length);
+console.log(seasons.length);
